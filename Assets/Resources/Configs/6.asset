@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d377f63d9738214c83290bd31d3d06d, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  roleName: Sylva
+  artPath: RoleArts/6Druid
+  moveSpeed: 1
+  animSpeedConfig:
+    data:
+    - animName: Idle2
+      skillName: 
+      animSpeed: 2
+      SkillInputKey: 
+      fxs: []
+      bullets: []
+    - animName: Attack1
+      skillName: 
+      animSpeed: 1
+      SkillInputKey: X
+      fxs: []
+      bullets:
+      - spawnFrameIndex: 5
+        bulletName: Bullets/Attack
+        bulletPosition: {x: 0, y: 0}
+        lifeTime: 0.5
+        isDestroyWhenAnimOver: 1
+        selectType: 0
+        radius: 0.3
+        sectorAngle: 0
+        damage: 20
+        isMove: 0
+        moveSpeed: 1
+        isPlaySwingSound: 0
+    - animName: Attack2
+      skillName: Nature's Wrath
+      animSpeed: 1
+      SkillInputKey: "A\u2192\u2192"
+      fxs:
+      - spawnFrameIndex: 6
+        fxName: FX/Projectiles/IceAoEPrefab
+        fxPosition: {x: 0, y: 0}
+        lifeTime: 1
+        isDestroyWhenAnimOver: 0
+        isMove: 0
+        moveSpeed: 1
+      bullets:
+      - spawnFrameIndex: 7
+        bulletName: Bullets/Attack
+        bulletPosition: {x: 0, y: 0}
+        lifeTime: 0.5
+        isDestroyWhenAnimOver: 1
+        selectType: 0
+        radius: 0.76
+        sectorAngle: 0
+        damage: 55
+        isMove: 0
+        moveSpeed: 1
+        isPlaySwingSound: 0
+    - animName: Attack3
+      skillName: Vine Lash
+      animSpeed: 1
+      SkillInputKey: YY
+      fxs: []
+      bullets:
+      - spawnFrameIndex: 2
+        bulletName: Bullets/Attack
+        bulletPosition: {x: 0, y: 0}
+        lifeTime: 0.5
+        isDestroyWhenAnimOver: 1
+        selectType: 0
+        radius: 0.3
+        sectorAngle: 0
+        damage: 25
+        isMove: 0
+        moveSpeed: 1
+        isPlaySwingSound: 0
+    - animName: Attack4
+      skillName: Thorn Aim
+      animSpeed: 1
+      SkillInputKey: BAA
+      fxs:
+      - spawnFrameIndex: 6
+        fxName: FX/Projectiles/IceSpellPrefab
+        fxPosition: {x: 0, y: 0}
+        lifeTime: 1
+        isDestroyWhenAnimOver: 0
+        isMove: 1
+        moveSpeed: 2
+      bullets:
+      - spawnFrameIndex: 3
+        bulletName: Bullets/Attack
+        bulletPosition: {x: 0, y: 0}
+        lifeTime: 1
+        isDestroyWhenAnimOver: 0
+        selectType: 0
+        radius: 0.2
+        sectorAngle: 0
+        damage: 35
+        isMove: 1
+        moveSpeed: 2.4
+        isPlaySwingSound: 0
