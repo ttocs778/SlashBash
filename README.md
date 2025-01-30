@@ -33,17 +33,8 @@
 3. ⚔️ **Start Battle Scene** – Your **previously selected character** loads in.
 4. 🎭 **Use Controls**:
    - 🕹️ **Joystick** – Move your fighter.
-   - ❌🟡🔵🟢 **XYAB** – Perform **different attacks**.
+   - ❌ **XYAB** – Perform **different attacks**.
    - 🛡️ **Right Shoulder** – Activate **block**.
-
-## 🎨 **Customization: Modify Skills**
-- **Easily tweak skills** via **scriptable objects**.
-- Adjust:
-  - 🏃 **Animation Speed**
-  - 💥 **Hit Effects**
-  - 🎯 **Projectile Parameters**
-  - ⏳ **Timing for Attacks**
-
 ---
 
 🔥 Get ready to **slash, bash, and dominate** the battlefield! Let the best fighter win! 🏆🎮⚡
